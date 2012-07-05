@@ -1,0 +1,51 @@
+		<label>{L_NXGSRTG_SUPPORT_EXPLAIN}</label>
+		<img src="{T_IMAGESET_LANG_PATH}/button_nxgsrtg.gif" id="Support_Request_Template_Generator" onclick="dE('nxgsrtg_block'), document.getElementById('nxgsrtg_url').focus(); return false;" title="{L_NXGSRTG_SUPPORT_TITLE}" alt="{L_NXGSRTG_SUPPORT_TITLE}" />
+		<div id="nxgsrtg_block" style="display: none;">
+			<div class="clear"></div>
+			<div class="panel rules">
+				<div class="inner"><span class="corners-top"><span></span></span>
+					<strong>{L_NXGSRTG_SUPPORT_TITLE}</strong><br />
+					{L_NXGSRTG_SUPPORT_RULES}
+				<span class="corners-bottom"><span></span></span></div>
+			</div>
+			<div class="panel bg3">
+				<div class="inner"><span class="corners-top"><span></span></span>
+					<dl>
+						<dt><label for="nxgsrtg_url" id="nxgsrtg_url_label">{L_NXGSRTG_URL}</label><span title="{L_NXGSRTG_TIP_URL}">{L_NXGSRTG_TOOLTIP}</span></dt>
+						<dd><input type="text" id="nxgsrtg_url" name="nxgsrtg_url" class="inputbox" maxlength="60" size="60" value="{NXGSRTG_URL_VALUE}"/></dd>
+											</dl>
+					<dl>
+						<dt><label for="nxgsrtg_host" id="nxgsrtg_host_label">{L_NXGSRTG_HOST}</label><span title="{L_NXGSRTG_TIP_HOST}">{L_NXGSRTG_TOOLTIP}</span></dt>
+						<dd><input type="text" id="nxgsrtg_host" name="nxgsrtg_host" class="inputbox" maxlength="60" size="60" value="{NXGSRTG_HOST_VALUE}"/></dd>
+					</dl>
+					<dl>
+						<dt><label for="nxgsrtg_install" id="nxgsrtg_install_label">{L_NXGSRTG_INSTALLATION}</label><span title="{L_NXGSRTG_TIP_INSTALLATION}">{L_NXGSRTG_TOOLTIP}</span></dt>
+						<dd><input type="text" id="nxgsrtg_install" name="nxgsrtg_install" class="inputbox" maxlength="60" size="60" value="{NXGSRTG_INSTALL_VALUE}"/></dd>
+					</dl>
+					<dl>
+						<dt><label for="nxgsrtg_version" id="nxgsrtg_version_label">{L_NXGSRTG_VERSION}</label><span title="{L_NXGSRTG_TIP_VERSION}">{L_NXGSRTG_TOOLTIP}</span></dt>
+						<dd><input type="text" id="nxgsrtg_version" name="nxgsrtg_version" class="inputbox" maxlength="60" size="60" value="{NXGSRTG_VERSION_VALUE}"/></dd>
+					</dl>
+					<dl>
+						<dt><label for="nxgsrtg_level" id="nxgsrtg_level_label">{L_NXGSRTG_LEVEL}</label><span title="{L_NXGSRTG_TIP_LEVEL}">{L_NXGSRTG_TOOLTIP}</span></dt>
+						<dd><input type="text" id="nxgsrtg_level" name="nxgsrtg_level" class="inputbox" maxlength="60" size="60" value="{NXGSRTG_LEVEL_VALUE}"/></dd>
+					</dl>
+					<dl>
+						<dt><label for="nxgsrtg_conversion" id="nxgsrtg_conversion_label">{L_NXGSRTG_CONVER}</label><span title="{L_NXGSRTG_TIP_CONVER}">{L_NXGSRTG_TOOLTIP}</span></dt>
+						<dd><input type="text" id="nxgsrtg_conversion" name="nxgsrtg_conversion" class="inputbox" maxlength="60" size="60" value="{NXGSRTG_CONVER_VALUE}"/></dd>
+					</dl>
+					<dl>
+						<dt><label for="nxgsrtg_style" id="nxgsrtg_style_label">{L_NXGSRTG_STYLES}</label><span title="{L_NXGSRTG_TIP_STYLES}">{L_NXGSRTG_TOOLTIP}</span></dt>
+						<dd><input type="text" id="nxgsrtg_style" name="nxgsrtg_style" class="inputbox" maxlength="60" size="60" value="{NXGSRTG_STYLES_VALUE}"/></dd>
+					</dl>
+					<dl>
+						<dt><label for="nxgsrtg_mods" id="nxgsrtg_mods_label">{L_NXGSRTG_MODS}</label><span title="{L_NXGSRTG_TIP_MODS}">{L_NXGSRTG_TOOLTIP}</span></dt>
+						<dd><textarea id="nxgsrtg_mods" name="nxgsrtg_mods" class="inputbox" style="height: 10em;" rows="6" cols="76">{NXGSRTG_MODS_VALUE}</textarea></dd>
+					</dl>
+					<input type="button" title="{L_NXGSRTG_BUTTOM_ADD_EXPLAIN}" value="{L_NXGSRTG_BUTTOM_ADD}" id="nxgsrtg_button" name="nxgsrtg_button" class="button1" onclick="nxgsrtg_postgen('{LA_NXGSRTG_COLOR}', '{LA_NXGSRTG_BBCODE_EXTRA_OPEN}', '{LA_NXGSRTG_BBCODE_EXTRA_CLOSE}'); return false;" />
+					<input type="button" title="{L_NXGSRTG_BUTTOM_CLEAR_EXPLAIN}" value="{L_NXGSRTG_BUTTOM_CLEAR}" id="blimpiar" name="blimpiar" class="button2" onclick="nxgsrtg_postgen_reset(); return false;" />
+				<span style="float:right;">{L_NXGSRTG_COPY}</span>
+				<span class="corners-bottom"><span></span></span></div>
+			</div>
+		</div>
+		<div class="clear"></div>
