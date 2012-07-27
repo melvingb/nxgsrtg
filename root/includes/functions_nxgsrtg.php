@@ -3,8 +3,8 @@
 *
 * @package NXG Support Request Template Generator
 * @author nextgen http://www.phpbb.com/community/memberlist.php?mode=viewprofile&u=1292660
-* @version 0.0.2
-* @copyright (c) 2012 nextgen http://www.phpbbnxg.com
+* @version 1.1.0
+* @copyright (c) 2012 nextgen http://www.dragon-gfx.com
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
 */
@@ -37,6 +37,12 @@ function nxgsrtg_display()
 		'NXGSRTG_CONVER_VALUE'	=> utf8_normalize_nfc(request_var('nxgsrtg_conversion', '', true)),
 		'NXGSRTG_STYLES_VALUE'	=> utf8_normalize_nfc(request_var('nxgsrtg_style', '', true)),
 		'NXGSRTG_MODS_VALUE'		=> utf8_normalize_nfc(request_var('nxgsrtg_mods', '', true)),
+	//	more fields here - Start
+	//	EXAMPLE 1 : ask for autoMOD
+		'NXGSRTG_AUTOMOD_VALUE'	=> utf8_normalize_nfc(request_var('nxgsrtg_automod', '', true)),
+	//	EXAMPLE 2 : ask for Support toolkit
+		'NXGSRTG_STK_VALUE'		=> utf8_normalize_nfc(request_var('nxgsrtg_stk', '', true)),
+	//	more fields here - End		
 	));
 }
 

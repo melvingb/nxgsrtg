@@ -3,8 +3,8 @@
 *
 * @package NXG Support Request Template Generator
 * @author nextgen http://www.phpbb.com/community/memberlist.php?mode=viewprofile&u=1292660
-* @version 0.0.2
-* @copyright (c) 2012 nextgen http://www.phpbbnxg.com
+* @version 1.1.0
+* @copyright (c) 2012 nextgen http://www.dragon-gfx.com
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
 */
@@ -57,7 +57,7 @@ $version_config_name = 'nxgsrtg_version';
 * The version numbering must otherwise be compatible with the version_compare function - http://php.net/manual/en/function.version-compare.php
 */
 $versions = array(
-	'1.0.0' => array(
+	'1.1.0' => array(
 		'table_column_add' => array(
 			array('phpbb_forums', 'enable_nxgsrtg', array('BOOL', '0')),
 		),
