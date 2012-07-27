@@ -6,8 +6,21 @@
 		<license><![CDATA[http://opensource.org/licenses/gpl-license.php GNU General Public License v2]]></license>
 
 		<title lang="en"><![CDATA[NXG Support Request Template Generator]]></title>
+		
+		<description lang="en"><![CDATA[The Support request template is a useful tool to solve most problems.
+Those changes has a number of questions the user will have to fill.]]></description>
+		<description lang="es"><![CDATA[El generador de plantilla de soporte es una herramienta útil para resolver la mayoria de los problemas.
+La Modificiación cuenta con una serie de preguntas que el usuario tendra que llenar.]]></description>
 
-				<author-group>
+		<author-notes lang="en"><![CDATA[Thanks to Leviatan21 by the support for this MOD
+	-------------------------------------------------------------------
+
+	Before adding this MOD to your forum, you should back up all files and databases related to this MOD.]]></author-notes>
+		<author-notes lang="es"><![CDATA[Gracias a Leviatan21 por el apoyo en este MOD
+	-------------------------------------------------------------------
+
+	Antes de añadir este MOD para tu foro, debe hacer una copia de todos los archivos y bases de datos relacionados con este MOD]]></author-notes>
+		<author-group>
 			<author>
 				<username><![CDATA[nextgen]]></username>
 				<contributions-group>
@@ -16,7 +29,7 @@
 			</author>
 		</author-group>
 
-		<mod-version>1.0.0</mod-version>
+		<mod-version>1.1.0</mod-version>
 
 		<installation>
 			<level>easy</level>
@@ -39,10 +52,10 @@
 			<edit>
 				<find><![CDATA[	ENABLE_TOPIC_ICONS'			=> 'Habilitar iconos para el tema',]]></find>
 				<action type="after-add"><![CDATA[
-// MOD : NXG Support Request Template Generator 1.0.0 - Start
+// MOD : NXG Support Request Template Generator 1.1.0 - Start
 	'ENABLE_NXGSRTG'					=> 'Habilitar SRTG',
 	'ENABLE_NXGSRTG_EXPLAIN'			=> 'Mostrar el “Generador de Plantilla de Soporte” para este foro.',
-// MOD : NXG Support Request Template Generator 1.0.0 - End
+// MOD : NXG Support Request Template Generator 1.1.0 - End
 ]]></action>
 			</edit>
 		</open>
