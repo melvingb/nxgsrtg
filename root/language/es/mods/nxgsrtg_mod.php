@@ -1,7 +1,7 @@
 <?php
 /**
 *
-** nxgsrt [Spanish]
+** nxgsrtg [Spanish]
 *
 * @package NXG Support Request Template Generator
 * @author nextgen http://www.phpbb.com/community/memberlist.php?mode=viewprofile&u=1292660

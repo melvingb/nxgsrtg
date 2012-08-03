@@ -1,7 +1,7 @@
 <?php
 /**
 *
-** nxgsrt [English]
+** nxgsrtg [English]
 *
 * @package NXG Support Request Template Generator
 * @author nextgen http://www.phpbb.com/community/memberlist.php?mode=viewprofile&u=1292660
@@ -33,7 +33,7 @@ $lang = array_merge($lang, array(
 						           Then, your responses may be copied and pasted into the post area.',
 
 	'NXGSRTG_TOOLTIP'		=> '[?]',
-	'NXGSRTG_COPY'			=> '<b>NXG SRTG</b> by <a href="http://www.phpbbnxg.com">nextgen</a>',
+	'NXGSRTG_COPY'			=> '<b>NXG SRTG</b> by <a href="http://www.dragon-gfx.com">nextgen</a>',
 	'NXGSRTG_URL'			=> 'What is your board’s URL?',
 	'NXGSRTG_TIP_URL'        => 'Your board URL is the address that you use to access your board. Most problems are more easily fixed when one can view your board. If you do not want to give out this information, please enter “n/a”.',	
 	'NXGSRTG_HOST'			=> 'Who do you host your board with?',
