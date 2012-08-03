@@ -3,10 +3,10 @@
 *
 ** nxgsrt [Spanish]
 *
-* @package NXG Support Request Template Generator
+* @package NXG Support Request Template
 * @author nextgen http://www.phpbb.com/community/memberlist.php?mode=viewprofile&u=1292660
-* @version 0.0.2
-* @copyright (c) 2012 nextgen http://www.phpbbnxg.com
+* @version 1.1.0
+* @copyright (c) 2012 nextgen http://www.dragon-gfx.com
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
 */
@@ -42,7 +42,7 @@ $lang = array_merge($lang, array(
 	'NXGSRTG_TIP_INSTALLATION'	=> 'Si ha instalado su foro descargando el software desde phpBB, subió los archivos a su servidor y a continuación ejecutó la instalación, seleccione “He instalado el foro por mí mismo.” Si alguien mas lo hizo por usted, seleccione “Otro lo hizo por mí.” Si ha utilizado una herramienta automatizada como Fantastico, elige “He utilizado una herramienta proporcionada por mi servidor”.',
 	'NXGSRTG_VERSION'		=> '¿Que versión de phpBB está útilizando?',
 	'NXGSRTG_TIP_VERSION'	=> 'Para encontrar esta información, entre en el “Panel de Administración (ACP)”, haga clic en la solapa “SISTEMA”, verá el número en “Versión actual”.',
-	'NXGSRTG_LEVEL'		    => '¿Cuál es su nivel de experiencia?',
+	'NXGSRTG_LEVEL'		    => 'Cuál es su nivel de experiencia?',
     'NXGSRTG_TIP_LEVEL'      => 'Del 1 al 4(nuevo), del 5 al 9(intermedio) al 10(experto)',	
 	'NXGSRTG_CONVER'			=> '¿Es una instalación nueva o una conversión?',
 	'NXGSRTG_TIP_CONVER'		=> 'Si su foro era una instalación desde cero, esto significa que su foro phpBB es nuevo. Si se trata de una conversión, esto significa que su foro fue instalado previamente cono otro software, más tarde convertido a phpBB.',
@@ -50,6 +50,14 @@ $lang = array_merge($lang, array(
 	'NXGSRTG_TIP_STYLES'		=> 'Un estilo desactualizado puede ser la causa de muchos problemas. Si no sabe qué estilo tiene instalado, entre en el “Panel de Administración (ACP)”, haga clic en la solapa “ESTILOS”, verá el nombre del estilo utilizado marcado con un * en “Estilos instalados”.',
 	'NXGSRTG_MODS'			=> '¿Que MOD’s tiene actualmente instalados?',
 	'NXGSRTG_TIP_MODS'	    => 'Las MODificaciones pueden ser la causa de muchos problemas. Esta información puede ayudar a determinar la causa exacta de su problema.',
+//	more fields here - Start
+	//	EXAMPLE 1 : ask for AutoMOD
+	'NXGSRTG_AUTOMOD'		=> 'Tiene AutoMOD instalado? Especifique la versión',
+	'NXGSRTG_TIP_AUTOMOD'    => 'Ejemplo',	
+	//	EXAMPLE 2 : ask for Support ToolKit
+	'NXGSRTG_STK'			=> 'Tiene STK instalado? Especifique la versión',
+	'NXGSRTG_TIP_STK'        => 'Ejemplo',
+//	more fields here - End
 
 	'NXGSRTG_BUTTOM_ADD'				=> 'Agregar datos',
 	'NXGSRTG_BUTTOM_ADD_EXPLAIN'		=> 'Agregar los datos ingresados al texto del mensaje',
