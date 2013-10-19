@@ -38,7 +38,7 @@ La Modificiación cuenta con una serie de preguntas que el usuario tendra que ll
 		</installation>
 
 		<link-group>
-			<link type="parent" href="../install_nxgsrtg.xml" lang="es">Instrucciones principales de instalación</link>
+			<link type="parent" href="../install.xml" lang="es">Instrucciones principales de instalación</link>
 		</link-group>
 
 	</header>
